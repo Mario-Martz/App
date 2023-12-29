@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".Principal">
+
+
+    <!-- Contenedor del head de la appp -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- Bara de navegacion de la pantalla principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/barraMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="12sp"
+            android:text="@string/men"
+            android:textColor="#FFB800"
+            android:fontFamily="@font/loved_by_the_king"
+            android:textSize="20sp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            app:drawableStartCompat="@drawable/ic_menu"
+            app:drawableTint="#FFB800" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/prehisp_nico_s"
+            android:fontFamily="@font/loved_by_the_king"
+            android:textColor="#FFB800"
+            android:textSize="28sp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/caritoCompras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="12sp"
+            android:fontFamily="@font/loved_by_the_king"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textColor="#FFB800"
+            app:drawableStartCompat="@drawable/ic_shopping_cart"
+            app:drawableTint="#FFB800" />
+
+        <ImageButton
+            android:id="@+id/btn_avatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="12sp"
+            android:background="@drawable/circle"
+            android:contentDescription="@string/Avatar"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            android:src="@drawable/ic_user_circle"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+    </LinearLayout>
+        <!-- Testo informativo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="@string/elige_tu_pasta"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:paddingBottom="2dp">
+            </TextView>
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="@string/elige_el_ti"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:paddingBottom="2dp">
+            </TextView>
+        </LinearLayout>
+</LinearLayout> <!--Fin de contenedor del Head-->
+
+    <!-- Botones de navegacion de pantallas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:src="@drawable/pasta_separator">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:src="@drawable/pasta_separator">
+        </ImageView>
+    </LinearLayout>
+    <!-- Vista de los platillos de la app -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp">
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="356dp"
+    android:height="11dp"
+    android:viewportWidth="356"
+    android:viewportHeight="11">
+
+    <!-- Rectángulo de fondo negro -->
+    <rect
+        android:width="356dp"
+        android:height="11dp"
+        android:fillColor="#000000"/>
+
+</vector>

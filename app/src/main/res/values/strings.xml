@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">App_Delivery</string>
+    <string name="loging">Loging</string>
+    <string name="login">Login</string>
+    <string name="prehisp_nico_s">Prehispánico’s</string>
+    <string name="ingresa_con_tu_correo_y_contrase_a">Ingresa con tu correo y contraseña</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="restaurar_contrase_a">Restaurar Contraseña</string>
+    <string name="no_tienes_una_cuenta">¿No tienes una cuenta?</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="entrar">Entrar</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido_s">Apellido/s</string>
+    <string name="repitPass">Repetir Contraseña</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="men">Menú</string>
+    <string name="todo">TODO</string>
+    <string name="todoSSSSSSSSSSSSSSS">TODO</string>
+    <string name="elige_tu_pasta">Elige tu pasta</string>
+    <string name="elige_el_ti">Elige el tipo de pasta que deseas para encontrar tu delicioso platillo más rápido</string>
+    <string name="s">TODO</string>
+    <string name="ss">TODO</string>
+    <string name="Avatar">Avatar</string>
+    <string name="btn_de_la_camara">btn de la camara</string>
+</resources>
